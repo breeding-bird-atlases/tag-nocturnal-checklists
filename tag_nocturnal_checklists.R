@@ -3,6 +3,9 @@ library(dplyr)
 library(lubridate)
 library(suncalc)
 
+month <- "may"
+year <- 2021
+
 # results from bba3
 bba3 <- read.delim(here("data", "ebird", "1_raw",
                         paste0("mddcbba3_", month, year, ".txt")), 
